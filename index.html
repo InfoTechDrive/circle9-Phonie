@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phonie</title>
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
-    <h2>make some magic here!!</h2>
 
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
-    <script src="index.mjs" type="module"></script>
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
+<body>
+  <!--   Creating a container for everything on the page -->
+  <main class="container">
+      <h1>NETWORK TYPE CHECK</h1>
+      <p>Input your number in the field provided to check your network provider</p>
+      <form autocomplete="off" action="">
+        <input type="tel" id="input-field" placeholder="Start typing..." required>
+        <input type="button" value="CHECK" id="check-btn">
+        <p id="alert-message"></p>
+        <input type="submit" value="SUBMIT" id="submit">
+        <!-- pattern="(\+234802|+234808|+234812|+234701|+234708|+234901|+234907|+234902|0802|0808|0812|0701|0708|0902|0907|0901).{8,}" -->
+      </form>
+    </main>
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
+  <script src="index.mjs" type="module"></script>
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
 </body>
+
 </html>

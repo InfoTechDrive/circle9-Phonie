@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+  width: 320px;
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 400px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: hsla(0, 0%, 50%, 0.21);
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  display: block;
+  margin: 0 auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+input[type=tel] {
+  width: 230px;
+  border: 1px solid transparent;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input[type=button] {
+  background-color: hsla(0, 0%, 50%, 0.964);
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+input[type=submit] {
+  background-color: hsla(0, 0%, 50%, 0.964);
+  cursor: pointer;
+  border: 1px solid transparent;
+  
+}
+
+h1 {
+  width: 250px;
+  font-size: 25px;
+  text-align: center;
+}
+
+p {
+  width: 250px;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+#alert-message {
+  margin: 0 auto 25px auto;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+  .container {
+    width: 400px;
+    min-height: 500px;
+  }
+
+  input[type=tel] {
+    display: inline-block;
+  }
+  
+  input[type=button] {
+    display: inline-block;
+  }
+
+  input {
+    font-size: 14px;
+  }
+
+  h1 {
+    width: 250px;
+    font-size: 20px;
+  }
+
+  p {
+    width: 230px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .container {
+    width: 400px;
+    min-height: 500px;
+  }
+
+  input[type=tel] {
+    display: inline-block;
+  }
+  
+  input[type=button] {
+    display: inline-block;
+  }
+
+  input {
+    font-size: 14px;
+  }
+
+  h1 {
+    width: 250px;
+    font-size: 20px;
+  }
+
+  p {
+    width: 230px;
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .container {
+    width: 400px;
+    min-height: 500px;
+  }
+
+  input[type=tel] {
+    display: inline-block;
+  }
+  
+  input[type=button] {
+    display: inline-block;
+  }
+
+  input {
+    font-size: 14px;
+  }
+
+  h1 {
+    width: 250px;
+    font-size: 20px;
+  }
+
+  p {
+    width: 230px;
+    font-size: 14px;
+  }
+}
